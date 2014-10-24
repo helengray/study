@@ -7,4 +7,6 @@ package ÃüÁîÄ£Ê½;
  */
 public interface Command {
 	public abstract void execute();
+	public abstract void execute(String fileName);
+	public abstract void undo();
 }
