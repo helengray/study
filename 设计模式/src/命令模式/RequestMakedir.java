@@ -1,15 +1,15 @@
-package 命令模式;
+package 鍛戒护妯″紡;
 
 public class RequestMakedir {
 	private Command command;
 	/*
-	 * 执行命令
+	 * 鎵ц鍛戒护
 	 */
 	public void startExcutCommand(String name){
 		command.execute(name);
 	}
 	/*
-	 * 撤销命令
+	 * 鎾ら攢鍛戒护
 	 */
 	public void undoCommand(){
 		command.undo();

@@ -1,13 +1,13 @@
-package ÃüÁîÄ£Ê½;
+package å‘½ä»¤æ¨¡å¼;
 
 import java.io.File;
 
 public class MakeDir {
 	/**
 	 * 
-	 * @author ÀîÏşÎ°
-	 * 2014-10-24 ÏÂÎç9:39:03
-	 * @ÃèÊö: ´´½¨ÎÄ¼ş
+	 * @author ææ™“ä¼Ÿ
+	 * 2014-10-24 ä¸‹åˆ9:39:03
+	 * @æè¿°: åˆ›å»ºæ–‡ä»¶
 	 */
 	public void createDir(String name){
 		File dir=new File(name);

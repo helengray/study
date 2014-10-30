@@ -1,15 +1,15 @@
-package ÃüÁîÄ£Ê½;
+package å‘½ä»¤æ¨¡å¼;
 
 import java.util.ArrayList;
 
 /**
  * 
- * @author ÀîÏşÎ°
- * 2014-10-23 ÏÂÎç11:19:56
- * TODO ¾ßÌåÃüÁî£¬ÊµÏÖÁËÃüÁî½Ó¿Ú
+ * @author ææ™“ä¼Ÿ
+ * 2014-10-23 ä¸‹åˆ11:19:56
+ * TODO å…·ä½“å‘½ä»¤ï¼Œå®ç°äº†å‘½ä»¤æ¥å£
  */
 public class ConcreateCommand implements Command {
-	//Ö¸»Ó¹ÙÓëÊ¿±øµÄÀı×Ó
+	//æŒ‡æŒ¥å®˜ä¸å£«å…µçš„ä¾‹å­
 	private CompanyArmy army;
 	public ConcreateCommand() {
 	}
@@ -21,7 +21,7 @@ public class ConcreateCommand implements Command {
 		army.sneakAttack();
 	}
 	
-	//´´½¨ÎÄ¼şÓë³·Ïú´´½¨ÎÄ¼ş(É¾³ıÎÄ¼ş)µÄÀı×Ó
+	//åˆ›å»ºæ–‡ä»¶ä¸æ’¤é”€åˆ›å»ºæ–‡ä»¶(åˆ é™¤æ–‡ä»¶)çš„ä¾‹å­
 	private ArrayList<String> dirNameList;
 	MakeDir makeDir;
 	

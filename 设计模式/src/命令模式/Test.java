@@ -1,30 +1,30 @@
-package ÃüÁîÄ£Ê½;
+package å‘½ä»¤æ¨¡å¼;
 
 public class Test {
 
 	/**
-	 * @author ÀîÏşÎ°
-	 * 2014-10-23 ÏÂÎç11:23:34
-	 * @ÃèÊö:
+	 * @author ææ™“ä¼Ÿ
+	 * 2014-10-23 ä¸‹åˆ11:23:34
+	 * @æè¿°:
 	 */
 	public static void main(String[] args) {
-		/*CompanyArmy ÈıÁ¬=new CompanyArmy();//ÃüÁî½ÓÊÕÕß
-		Command command=new ConcreateCommand(ÈıÁ¬);//´´½¨¾ßÌåÃüÁî²¢Ö¸¶¨½ÓÊÕÕß
-		//ArmySuperior Ö¸»Ó¹Ù=new ArmySuperior(command);//1¡¢´ø²ÎÊı¹¹Ôì·½·¨
-		ArmySuperior Ö¸»Ó¹Ù=new ArmySuperior();//2¡¢ÎŞ²Î¹¹Ôì·½·¨
-		Ö¸»Ó¹Ù.setCommand(command);
-		Ö¸»Ó¹Ù.startExecutCommand();*/
-		//´´½¨ÎÄ¼şÓëÉ¾³ıÎÄ¼ş
-		MakeDir makeDir=new MakeDir();//´´½¨½ÓÊÕÕß
-		Command command=new ConcreateCommand(makeDir);//´´½¨¾ßÌåÃüÁî,²¢Ö¸¶¨½ÓÊÕÕß
-		RequestMakedir requestMakedir=new RequestMakedir();//´´½¨ÇëÇóÕß
-		requestMakedir.setCommand(command);//ÉèÖÃÃüÁî
-		requestMakedir.startExcutCommand("jiafei");//´´½¨jiafeiÄ¿Â¼
-		requestMakedir.startExcutCommand("tom");//´´½¨tomÄ¿Â¼
-		requestMakedir.startExcutCommand("jerry");//´´½¨jerryÄ¿Â¼
-		requestMakedir.undoCommand();//É¾³ıjerryÄ¿Â¼
-		requestMakedir.undoCommand();//É¾³ıtomÄ¿Â¼
-		requestMakedir.undoCommand();//É¾³ıjiafeiÄ¿Â¼
+		/*CompanyArmy ä¸‰è¿=new CompanyArmy();//å‘½ä»¤æ¥æ”¶è€…
+		Command command=new ConcreateCommand(ä¸‰è¿);//åˆ›å»ºå…·ä½“å‘½ä»¤å¹¶æŒ‡å®šæ¥æ”¶è€…
+		//ArmySuperior æŒ‡æŒ¥å®˜=new ArmySuperior(command);//1ã€å¸¦å‚æ•°æ„é€ æ–¹æ³•
+		ArmySuperior æŒ‡æŒ¥å®˜=new ArmySuperior();//2ã€æ— å‚æ„é€ æ–¹æ³•
+		æŒ‡æŒ¥å®˜.setCommand(command);
+		æŒ‡æŒ¥å®˜.startExecutCommand();*/
+		//åˆ›å»ºæ–‡ä»¶ä¸åˆ é™¤æ–‡ä»¶
+		MakeDir makeDir=new MakeDir();//åˆ›å»ºæ¥æ”¶è€…
+		Command command=new ConcreateCommand(makeDir);//åˆ›å»ºå…·ä½“å‘½ä»¤,å¹¶æŒ‡å®šæ¥æ”¶è€…
+		RequestMakedir requestMakedir=new RequestMakedir();//åˆ›å»ºè¯·æ±‚è€…
+		requestMakedir.setCommand(command);//è®¾ç½®å‘½ä»¤
+		requestMakedir.startExcutCommand("jiafei");//åˆ›å»ºjiafeiç›®å½•
+		requestMakedir.startExcutCommand("tom");//åˆ›å»ºtomç›®å½•
+		requestMakedir.startExcutCommand("jerry");//åˆ›å»ºjerryç›®å½•
+		requestMakedir.undoCommand();//åˆ é™¤jerryç›®å½•
+		requestMakedir.undoCommand();//åˆ é™¤tomç›®å½•
+		requestMakedir.undoCommand();//åˆ é™¤jiafeiç›®å½•
 	}
 
 }

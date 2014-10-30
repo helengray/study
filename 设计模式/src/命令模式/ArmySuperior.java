@@ -1,4 +1,4 @@
-package ÃüÁîÄ£Ê½;
+package å‘½ä»¤æ¨¡å¼;
 
 public class ArmySuperior {
 	private Command command;
